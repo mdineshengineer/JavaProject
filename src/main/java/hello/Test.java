@@ -24,7 +24,7 @@ public class Test {
        // driver.findElement(By.name("q")).submit();
         
         //No of columns
-        
+        //List
         List<WebElement> f_name = driver.findElements(By.xpath("//div[@class='rt-table']//div[@class='rt-tbody']//div[@class='rt-td'][1]"));
         List<WebElement> l_name = driver.findElements(By.xpath("//div[@class='rt-table']//div[@class='rt-tbody']//div[@class='rt-td'][2]"));
         List<WebElement> agelisted = driver.findElements(By.xpath("//div[@class='rt-table']//div[@class='rt-tbody']//div[@class='rt-td'][3]"));
